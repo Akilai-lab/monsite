@@ -1,0 +1,71 @@
+.background {
+	background-image: url('/assets/img-page.jpg');
+	background-size: cover;
+	min-height: calc(70vh - 70px);
+	
+	.layout {
+        background-color: #ffffff36;
+		min-height: calc(90vh - 92px);
+
+		h2 {
+			text-transform: uppercase;
+			color: white;
+			letter-spacing: 6px;
+			border: 1px solid white;
+			padding: 10px 10px;
+            text-align: center;
+		}
+        .videos {
+            display: flex;
+            align-items: center;
+            #monCarousel {
+                margin: 50px 150px;
+            }
+            .othersVideos {
+                display: flex;
+                flex-wrap: wrap;
+                button {
+                    max-height: 40px;
+                }
+                .videoToOpen {
+                    margin: 0 40px;
+                }
+            }
+        }
+        .writeIn {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            h2 {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+                color: white;
+            }
+            .paraph {
+                margin: 20px 20px;
+        
+                .comment {
+                    display: flex;
+                    background: #fcf9ffa1;
+                    border-left: 1px solid #0b064fcf;
+                    border-top: 1px solid #0b064fcf;
+                    margin: 10px auto;
+                    padding: 7px;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    border-bottom: 1px solid aliceblue;
+                    border-right: 1px solid aliceblue;
+
+                    img {
+                        width: 30px;
+                        height:20px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+	   }
+    }
+}
